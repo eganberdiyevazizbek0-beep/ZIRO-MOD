@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>ZIRO MOD</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- ==================================================
+     HEADER
+================================================== -->
+
+<header class="header">
+
+    <div class="logo">
+        ZIRO <span>MOD</span>
+    </div>
+
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Mod, map yoki texture qidiring."
+        >
+
+        <button id="searchButton">
+            🔍
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- ==================================================
+     NAVIGATION
+================================================== -->
+
+<nav class="navigation">
+
+    <button data-category="all">
+        🏠 Bosh sahifa
+    </button>
+
+
+    <button data-category="mod">
+        🧊 Mods
+    </button>
+
+
+    <button data-category="map">
+        🌄 Maps
+    </button>
+
+
+    <button data-category="texture">
+        🖼️ Textures
+    </button>
+
+</nav>
+
+
+
+<!-- ==================================================
+     MAIN
+================================================== -->
+
+<main class="container">
+
+
+    <!-- SAYT NOMI -->
+
+    <h1>
+        ZIRO MOD.
+    </h1>
+
+
+    <p class="subtitle">
+        Minecraft Mods, Maps va Textures
+    </p>
+
+
+
+    <!-- ==================================================
+         POPULAR
+    ================================================== -->
+
+    <section class="popular">
+
+        <h2>
+            🔥 Eng ko‘p yuklab olinganlar
+        </h2>
+
+
+        <button
+            id="showAllButton"
+            class="all-button"
+        >
+            Barchasini ko‘rish →
+        </button>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         MAHSULOTLAR
+    ================================================== -->
+
+    <section id="itemsContainer">
+
+
+
+        <!-- ==================================================
+             MOD 1
+        ================================================== -->
+
+        <article
+            class="item"
+            data-category="mod"
+            data-name="Example Mod"
+        >
+
+
+            <div class="item-image">
+                🧊
+            </div>
+
+
+            <div class="item-info">
+
+
+                <h2>
+                    Example Mod
+                </h2>
+
+
+                <p class="version">
+                    1.21 Fabric
+                </p>
+
+
+                <p>
+                    Minecraft uchun ajoyib mod.
+                </p>
+
+
+                <div class="stats">
+
+                    <span>
+                        ⬇️ 12.3K
+                    </span>
+
+
+                    <span>
+                        ⭐ 4.8
+                    </span>
+
+                </div>
+
+
+                <button class="download-button">
+                    Yuklab olish ↓
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ==================================================
+             MAP 1
+        ================================================== -->
+
+        <article
+            class="item"
+            data-category="map"
+            data-name="Survival Map"
+        >
+
+
+            <div class="item-image">
+                🌄
+            </div>
+
+
+            <div class="item-info">
+
+
+                <h2>
+                    Survival Map
+                </h2>
+
+
+                <p class="version">
+                    1.21 Map
+                </p>
+
+
+                <p>
+                    Minecraft survival xaritasi.
+                </p>
+
+
+                <div class="stats">
+
+                    <span>
+                        ⬇️ 8.7K
+                    </span>
+
+
+                    <span>
+                        ⭐ 4.6
+                    </span>
+
+                </div>
+
+
+                <button class="download-button">
+                    Yuklab olish ↓
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ==================================================
+             TEXTURE 1
+        ================================================== -->
+
+        <article
+            class="item"
+            data-category="texture"
+            data-name="HD Texture"
+        >
+
+
+            <div class="item-image">
+                🖼️
+            </div>
+
+
+            <div class="item-info">
+
+
+                <h2>
+                    HD Texture
+                </h2>
+
+
+                <p class="version">
+                    1.21 Texture
+                </p>
+
+
+                <p>
+                    Minecraft uchun HD texture pack.
+                </p>
+
+
+                <div class="stats">
+
+                    <span>
+                        ⬇️ 6.2K
+                    </span>
+
+
+                    <span>
+                        ⭐ 4.7
+                    </span>
+
+                </div>
+
+
+                <button class="download-button">
+                    Yuklab olish ↓
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+
+    </section>
+
+
+
+    <!-- ==================================================
+         NATIJA TOPILMAGANDA
+    ================================================== -->
+
+    <div
+        id="noResults"
+        class="no-results"
+    >
+
+        Hech narsa topilmadi.
+
+    </div>
+
+
+</main>
+
+
+
+<!-- ==================================================
+     JAVASCRIPT
+================================================== -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
